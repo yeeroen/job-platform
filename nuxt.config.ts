@@ -7,6 +7,7 @@ export default defineNuxtConfig({
       '@nuxt/hints',
       '@nuxt/image',
       '@nuxthub/core',
+      '@onmax/nuxt-better-auth',
     ],
 
     devtools: {
@@ -22,21 +23,8 @@ export default defineNuxtConfig({
     compatibilityDate: '2025-01-15',
 
     hub: {
-        db: {
-            dialect: 'sqlite',
-            driver: 'd1',
-            connection: {
-                databaseId: 'ad349ac2-1742-483c-8008-7f5d030d25fc'
-            },
-        },
-        cache: {
-            driver: 'cloudflare-kv-binding',
-            namespaceId: '816fc73af76948a7935fee8a52db7290'
-        },
-        blob: {
-            driver: 'cloudflare-r2',
-            bucketName: 'job-platform-blob'
-        }
+        db: 'sqlite',
+        cache: true,
     },
 
     eslint: {

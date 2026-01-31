@@ -19,6 +19,8 @@
     "@nuxt/image": "2.0.0",
     "@nuxt/ui": "^4.4.0",
     "@nuxthub/core": "0.10.6",
+    "@onmax/nuxt-better-auth": "0.0.2-alpha.19",
+    "better-auth": "1.5.0-beta.11",
     "drizzle-kit": "^0.31.8",
     "drizzle-orm": "^0.45.1",
     "nuxt": "^4.3.0",
@@ -28,6 +30,7 @@
     "@antfu/eslint-config": "^7.2.0",
     "@nuxt/eslint": "^1.13.0",
     "eslint": "^9.39.2",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "vue-tsc": "^3.2.4"
   },
